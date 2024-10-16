@@ -1,4 +1,4 @@
-MERGE (lotr:Book {name: "Lord of the Rose"})
+MERGE (lotr:Book {name:"Lord of the Rose"})-[:OF_SERIES {order:1}]->(:BookSeries {name:"The Rise of Solamnia"})
 MERGE (lotr)<-[:OF_BOOK]-(:Chapter {name:"Prologue: 39 SC",order:0})
 MERGE (lotr)<-[:OF_BOOK]-(:Chapter {name:"Chapter One: Two Riders - 42 SC, The Age of Mortals",order:1})
 MERGE (lotr)<-[:OF_BOOK]-(:Chapter {name:"Chapter Two: The Stronghold of Cornellus",order:2})
