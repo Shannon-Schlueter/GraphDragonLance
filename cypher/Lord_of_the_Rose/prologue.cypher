@@ -23,7 +23,7 @@ MERGE (mina)-[r:IS_A_x_OF]->(takhisis)
 ON CREATE SET r.descriptor="prophet"
 MERGE (silvanoshei)-[:SLAIN_BY]->(mina)
 MERGE (solamnia:Entity {id:"solamnia"})
-SET solamnia:Place:Nation
+SET solamnia:Place:Nation,
   solamnia.name = coalesce(solamnia.name, "Solamnia")
 MERGE (darkKnights:Entity {id:"darkKnights"})
 SET  darkKnights.name = "The Dark Knights"
