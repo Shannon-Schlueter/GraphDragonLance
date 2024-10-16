@@ -1,4 +1,10 @@
-MERGE (lotr:Book {name:"Lord of the Rose"})-[:OF_SERIES {order:1}]->(:BookSeries {name:"The Rise of Solamnia"})
+MERGE (wotc:Entity {id:"wotc"})
+MERGE (niles:Entity {id:"niles"})
+MERGE (tros:BookSeries {name:"The Rise of Solamnia"})-[:BY_AUTHOR]->(niles)
+MERGE (lotr:Book {name:"Lord of the Rose"})-[:OF_SERIES {order:1}]->(tros)
+MERGE (:Book {name:"The Crown and the Sword"})-[:OF_SERIES {order:3}]->(tros)
+MERGE (:Book {name:"The Last Measure"})-[:OF_SERIES {order:3}]->(tros)
+
 MERGE (lotr)<-[:OF_BOOK]-(:Chapter {name:"Prologue: 39 SC",order:0})
 MERGE (lotr)<-[:OF_BOOK]-(:Chapter {name:"Chapter One: Two Riders - 42 SC, The Age of Mortals",order:1})
 MERGE (lotr)<-[:OF_BOOK]-(:Chapter {name:"Chapter Two: The Stronghold of Cornellus",order:2})
@@ -35,3 +41,7 @@ MERGE (lotr)<-[:OF_BOOK]-(:Chapter {name:"Chapter Thirty-Two: A New Age of War",
 MERGE (lotr)<-[:OF_BOOK]-(:Chapter {name:"Chapter Thirty-Three: The Rose Has Thorns",order:33})
 MERGE (lotr)<-[:OF_BOOK]-(:Chapter {name:"Chapter Thirty-Four: The Game Room",order:34})
 MERGE (lotr)<-[:OF_BOOK]-(:Chapter {name:"Chapter Thirty-Five: Lord of the Rose Room",order:35})
+
+SET lotr.copyrightYear = 2005,
+  lotr.isbn = "978-0-7869-6271-6",
+  lotr.isbnList = apoc.coll.union(["978-0-7869-6271-6"], lotr.isbnList)
