@@ -21,14 +21,14 @@ MERGE (ariakan:Entity {id:'ariakan'})
 SET  ariakan.name = coalesce(ariakan.name,'Ariakan'),
   ariakan.aliasList = apoc.coll.union(["Lord Ariakan"],ariakan.aliasList),
   ariakan.title = coalesce(ariakan.title,"lord"),
-  ariakan.titleList = apoc.coll.UNION(["lord"],ariakan.titleList)
+  ariakan.titleList = apoc.coll.union(["lord"],ariakan.titleList)
 MERGE (chieftain:Entity {id:'chieftain'})
 MERGE (bonechisel:Entity {id:'bonechisel'})
 SET  bonechisel:Hobgoblin,
   bonechisel.name = coalesce(bonechisel.name,'Bonechisel'),
   bonechisel.aliasList = apoc.coll.union(["Bonechisel","Bonechisel Hobgoblin", "Bonechisel Hob"], bonechisel.aliasList),
   bonechisel.title = coalesce(bonechisel.title,"chieftain"),
-  bonechisel.titleList = apoc.coll.UNION(["chieftain"], bonechisel.titleList)
+  bonechisel.titleList = apoc.coll.union(["chieftain"], bonechisel.titleList)
 MERGE (bonechisel)-[:SUBORDINATE_OF]->(ariakan)
 MERGE (bonechisel)-[:ATTAINED_RANK]->(chieftain)
 MERGE (laka:Entity {id:'laka'})
@@ -108,7 +108,7 @@ SET  tinCup:Place:City,
 MERGE (c6s2)-[c6s2setting:SETTING]->(tinCup)
 SET c6s2setting.yearSC = 40,
   c6s2setting.yearAC = 423
-MERGE (c6conv1 {id:"c6conv1"})-[:OCCURS]->(c6s1)
+MERGE (c6conv2 {id:"c6conv2"})-[:OCCURS]->(c6s1)
 MERGE (underChief:Entity {id:"underChief"})
 SET underChief:Title,
     underChief.title = 'under-chief'
@@ -129,20 +129,20 @@ MERGE (laka)-[:APPEARANCE]->(c6s2)
 MERGE (hiddukel)-[:REFERENCE]->(c6s2)
 
 // DIALOG
-MERGE (c6conv1)-[:STARTS]->(c6conv1db1:DialogBlock {sentenceCnt:1, wordsPerSentence:[4], primaryTone:"announcement", toneList:["announcement"]})
-MERGE (bonechisel)-[:SAYS]->(c6conv1db1)
-MERGE (c6conv1db1)-[:NEXT]->(c6conv1db2:DialogBlock {sentenceCnt:2, wordsPerSentence:[4,18], primaryTone:"announcement", toneList:["announcement"]})
-MERGE (bonechisel)-[:SAYS]->(c6conv1db2)
-MERGE (c6conv1db2)-[:NEXT]->(c6conv1db3:DialogBlock {sentenceCnt:1, wordsPerSentence:[16], primaryTone:"critical", toneList:["critical"]})
-MERGE (ankhar)-[:SAYS]->(c6conv1db3)-[:TO]->(bonechisel)
-MERGE (c6conv1db3)-[:NEXT]->(c6conv1db4:DialogBlock {sentenceCnt:1, wordsPerSentence:[6], primaryTone:"earnest", toneList:["earnest"]})
-MERGE (bonechisel)-[:SAYS]->(c6conv1db4)-[:TO]->(ankhar)
-MERGE (c6conv1db4)-[:NEXT]->(c6conv1db5:DialogBlock {sentenceCnt:2, wordsPerSentence:[7,3], primaryTone:"critical", toneList:["critical"]})
-MERGE (ankhar)-[:SAYS]->(c6conv1db5)-[:TO]->(bonechisel)
-MERGE (c6conv1db5)-[:NEXT]->(c6conv1db6:DialogBlock {sentenceCnt:1, wordsPerSentence:[1], primaryTone:"demanding", toneList:["demanding"]})
-MERGE (bonechisel)-[:SAYS]->(c6conv1db6)
-MERGE (c6conv1db6)-[:NEXT]->(c6conv1db7:DialogBlock {sentenceCnt:1, wordsPerSentence:[5], primaryTone:"demanding", toneList:["demanding"]})
-MERGE (bonechisel)-[:SAYS]->(c6conv1db7)-[:TO]->(notch)
+MERGE (c6conv2)-[:STARTS]->(c6conv2db1:DialogBlock {sentenceCnt:1, wordsPerSentence:[4], primaryTone:"announcement", toneList:["announcement"]})
+MERGE (bonechisel)-[:SAYS]->(c6conv2db1)
+MERGE (c6conv2db1)-[:NEXT]->(c6conv2db2:DialogBlock {sentenceCnt:2, wordsPerSentence:[4,18], primaryTone:"announcement", toneList:["announcement"]})
+MERGE (bonechisel)-[:SAYS]->(c6conv2db2)
+MERGE (c6conv2db2)-[:NEXT]->(c6conv2db3:DialogBlock {sentenceCnt:1, wordsPerSentence:[16], primaryTone:"critical", toneList:["critical"]})
+MERGE (ankhar)-[:SAYS]->(c6conv2db3)-[:TO]->(bonechisel)
+MERGE (c6conv2db3)-[:NEXT]->(c6conv2db4:DialogBlock {sentenceCnt:1, wordsPerSentence:[6], primaryTone:"earnest", toneList:["earnest"]})
+MERGE (bonechisel)-[:SAYS]->(c6conv2db4)-[:TO]->(ankhar)
+MERGE (c6conv2db4)-[:NEXT]->(c6conv2db5:DialogBlock {sentenceCnt:2, wordsPerSentence:[7,3], primaryTone:"critical", toneList:["critical"]})
+MERGE (ankhar)-[:SAYS]->(c6conv2db5)-[:TO]->(bonechisel)
+MERGE (c6conv2db5)-[:NEXT]->(c6conv2db6:DialogBlock {sentenceCnt:1, wordsPerSentence:[1], primaryTone:"demanding", toneList:["demanding"]})
+MERGE (bonechisel)-[:SAYS]->(c6conv2db6)
+MERGE (c6conv2db6)-[:NEXT]->(c6conv2db7:DialogBlock {sentenceCnt:1, wordsPerSentence:[5], primaryTone:"demanding", toneList:["demanding"]})
+MERGE (bonechisel)-[:SAYS]->(c6conv2db7)-[:TO]->(notch)
 
 // ENCOUNTER
 MERGE (c6enc2)-[:STARTS]->(c6enc2act1:Action:Attack:MeleeAttack {weapon:"knife"})
