@@ -38,7 +38,7 @@ SET  solinari:Place:Moon,
   solinari.name = coalesce(solinari.name,'Solinari'),
   solinari.aliasList = apoc.coll.union(["Solinari"],solinari.nameList),
   solinari.description = coalesce(solinari.description,"The White Moon of Krynn"),
-  solinari.descriptionList = apoc.coll.UNION(["The White Moon of Krynn"],solinari.descriptionList)
+  solinari.descriptionList = apoc.coll.union(["The White Moon of Krynn"],solinari.descriptionList)
 MERGE (solinari)-[:MOON_OF]->(krynn)
 SET c5Trip.modeOfTravel = 'horseback',
   c5Trip.duration = 'about 4 days'
@@ -89,7 +89,7 @@ SET  dara:Human,
   dara.name = coalesce(dara.name,'Dara Lorimar'),
   dara.aliasList = apoc.coll.union(["Dara Lorimar","Princess of the Plains"],dara.aliasList),
   dara.title = coalesce(dara.title,"lady"),
-  dara.titleList = apoc.coll.UNION(["lady","princess"],dara.titleList),
+  dara.titleList = apoc.coll.union(["lady","princess"],dara.titleList),
   dara.birthyear = coalesce(dara.birthyear,"20 SC")
 MERGE (dara)-[daraIsOfLorimar:IS_A_x_OF]->(lorimar)
 SET  daraIsOfLorimar.descriptor = coalesce(daraIsOfLorimar.descriptor,'daughter'),
