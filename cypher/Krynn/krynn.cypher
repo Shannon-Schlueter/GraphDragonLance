@@ -13,7 +13,7 @@ CREATE  (foundation:TimePeriod {name: "The Foundation", startYear: -9000, endYea
         (timeOfDragons:TimePeriod {name: "The Time of Dragons", startYear: 300, endYear: 383});
 
 // World Nodes
-CREATE  (krynn:World {name: "Krynn"});
+CREATE  (krynn:World {name: "Krynn", description:"third planet of the krynnspace solar system"});
 
 // Continent Nodes
 CREATE (ansalon:Continent {name: 'Ansalon'}),

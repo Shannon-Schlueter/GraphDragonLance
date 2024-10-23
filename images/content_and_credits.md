@@ -1,0 +1,60 @@
+- Icon_Branchala.webp
+  - Dragonlance Wiki, 2024/10/23, https://dragonlance.fandom.com/wiki/List_of_Dragonlance_deities
+  - content is available under [CC-BY-SA](https://www.fandom.com/licensing) unless otherwise noted.
+- Icon_Chemosh.webp
+  - Dragonlance Wiki, 2024/10/23, https://dragonlance.fandom.com/wiki/List_of_Dragonlance_deities
+  - content is available under [CC-BY-SA](https://www.fandom.com/licensing) unless otherwise noted.
+- Icon_Chislev.webp
+  - Dragonlance Wiki, 2024/10/23, https://dragonlance.fandom.com/wiki/List_of_Dragonlance_deities
+  - content is available under [CC-BY-SA](https://www.fandom.com/licensing) unless otherwise noted.
+- Icon_Gilean.webp
+  - Dragonlance Wiki, 2024/10/23, https://dragonlance.fandom.com/wiki/List_of_Dragonlance_deities
+  - content is available under [CC-BY-SA](https://www.fandom.com/licensing) unless otherwise noted.
+- Icon_Hiddukel.webp
+  - Dragonlance Wiki, 2024/10/23, https://dragonlance.fandom.com/wiki/List_of_Dragonlance_deities
+  - content is available under [CC-BY-SA](https://www.fandom.com/licensing) unless otherwise noted.
+- Icon_Kiri-Jolith.webp
+  - Dragonlance Wiki, 2024/10/23, https://dragonlance.fandom.com/wiki/List_of_Dragonlance_deities
+  - content is available under [CC-BY-SA](https://www.fandom.com/licensing) unless otherwise noted.
+- Icon_Lunitari.webp
+  - Dragonlance Wiki, 2024/10/23, https://dragonlance.fandom.com/wiki/List_of_Dragonlance_deities
+  - content is available under [CC-BY-SA](https://www.fandom.com/licensing) unless otherwise noted.
+- Icon_Majere.webp
+  - Dragonlance Wiki, 2024/10/23, https://dragonlance.fandom.com/wiki/List_of_Dragonlance_deities
+  - content is available under [CC-BY-SA](https://www.fandom.com/licensing) unless otherwise noted.
+- Icon_Mishakal.webp
+  - Dragonlance Wiki, 2024/10/23, https://dragonlance.fandom.com/wiki/List_of_Dragonlance_deities
+  - content is available under [CC-BY-SA](https://www.fandom.com/licensing) unless otherwise noted.
+- Icon_Morgion.webp
+  - Dragonlance Wiki, 2024/10/23, https://dragonlance.fandom.com/wiki/List_of_Dragonlance_deities
+  - content is available under [CC-BY-SA](https://www.fandom.com/licensing) unless otherwise noted.
+- Icon_Nuitari.webp
+  - Dragonlance Wiki, 2024/10/23, https://dragonlance.fandom.com/wiki/List_of_Dragonlance_deities
+  - content is available under [CC-BY-SA](https://www.fandom.com/licensing) unless otherwise noted.
+- Icon_Paladine.webp
+  - Dragonlance Wiki, 2024/10/23, https://dragonlance.fandom.com/wiki/List_of_Dragonlance_deities
+  - content is available under [CC-BY-SA](https://www.fandom.com/licensing) unless otherwise noted.
+- Icon_Reorx.webp
+  - Dragonlance Wiki, 2024/10/23, https://dragonlance.fandom.com/wiki/List_of_Dragonlance_deities
+  - content is available under [CC-BY-SA](https://www.fandom.com/licensing) unless otherwise noted.
+- Icon_Sargonnas.webp
+  - Dragonlance Wiki, 2024/10/23, https://dragonlance.fandom.com/wiki/List_of_Dragonlance_deities
+  - content is available under [CC-BY-SA](https://www.fandom.com/licensing) unless otherwise noted.
+- Icon_Shinare.webp
+  - Dragonlance Wiki, 2024/10/23, https://dragonlance.fandom.com/wiki/List_of_Dragonlance_deities
+  - content is available under [CC-BY-SA](https://www.fandom.com/licensing) unless otherwise noted.
+- Icon_Sirrion.webp
+  - Dragonlance Wiki, 2024/10/23, https://dragonlance.fandom.com/wiki/List_of_Dragonlance_deities
+  - content is available under [CC-BY-SA](https://www.fandom.com/licensing) unless otherwise noted.
+- Icon_Solinari.webp
+  - Dragonlance Wiki, 2024/10/23, https://dragonlance.fandom.com/wiki/List_of_Dragonlance_deities
+  - content is available under [CC-BY-SA](https://www.fandom.com/licensing) unless otherwise noted.
+- Icon_Takhisis.webp
+  - Dragonlance Wiki, 2024/10/23, https://dragonlance.fandom.com/wiki/List_of_Dragonlance_deities
+  - content is available under [CC-BY-SA](https://www.fandom.com/licensing) unless otherwise noted.
+- Icon_Zeboim.webp
+  - Dragonlance Wiki, 2024/10/23, https://dragonlance.fandom.com/wiki/List_of_Dragonlance_deities
+  - content is available under [CC-BY-SA](https://www.fandom.com/licensing) unless otherwise noted.
+- Icon_Zivilyn.webp
+  - Dragonlance Wiki, 2024/10/23, https://dragonlance.fandom.com/wiki/List_of_Dragonlance_deities
+  - content is available under [CC-BY-SA](https://www.fandom.com/licensing) unless otherwise noted.
