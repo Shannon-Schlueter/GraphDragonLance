@@ -58,3 +58,8 @@
 - Icon_Zivilyn.webp
   - Dragonlance Wiki, 2024/10/23, https://dragonlance.fandom.com/wiki/List_of_Dragonlance_deities
   - content is available under [CC-BY-SA](https://www.fandom.com/licensing) unless otherwise noted.
+- map_of_Krynn_c351_AC.webp
+  - Dragonlance Wiki, 2024/10/23, https://dragonlance.fandom.com/wiki/Krynn
+- Taladas.webp
+  - Dragonlance Wiki, 2024/10/23, https://dragonlance.fandom.com/wiki/Taladas
+- 
